@@ -787,7 +787,7 @@ AVAILABLE DATA FILES:
 {extracted_section}
 
 MEDIA CONTENT:
-{("\n".join(media_text) if media_text else "No media files.")}
+{media_context}
 
 {failure_context}
 {strict_text_constraint}
